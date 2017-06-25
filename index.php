@@ -14,16 +14,30 @@
 
 </head>
 <body>
-    <section >
-        <div class="container">
-            <div class="row">
-                <h1>hola mundo</h1>
-            </div>
-        </div>
+    <nav class="navbar d-flex flex-row justify-content-start">
+        <a class="logotipo" href="/">
+            <img src="images/logotipo.png" class="svg img-fluid">
+        </a>
+        <h3 class="ml-auto">Ver la oferta educativa</h3>
+    </nav>
+    <section class="s1">
+        <img class="img-fluid" src="images/Group 7.png">
+    </section>
+    <section class="s1">
+        <img class="img-fluid" src="images/Educacion_Banner.png">
+    </section>
+    <section class="s1">
+        <img class="img-fluid" src="images/Administracion_Banner.png">
+    </section>
+    <section class="s1">
+        <img class="img-fluid" src="images/Mercadotecnia_Banner.png">
+    </section>
+    <section class="s1">
+        <img class="img-fluid" src="images/Derecho_Penal_Banner.png">
     </section>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 <script>
     $('.carousel').carousel({

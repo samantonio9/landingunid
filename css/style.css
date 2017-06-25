@@ -1,3 +1,22 @@
-h1 {
-  color: #00f;
+.svg {
+  width: 260px;
+  height: 177px;
+  float: left;
+  background: #fff center;
+  padding: 45px 41px 37px 30px;
+}
+.navbar {
+  background: #808080;
+  height: 77px;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  margin: 0;
+}
+.navbar h3 {
+  padding-right: 126px;
+}
+.logotipo {
+  padding-left: 114px;
+  top: 0;
 }
