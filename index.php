@@ -14,35 +14,117 @@
 
 </head>
 <body>
-    <nav class="navbar d-flex flex-row justify-content-start">
-        <a class="logotipo" href="/">
-            <img src="images/logotipo.png" class="svg img-fluid">
-        </a>
-        <h3 class="ml-auto">Ver la oferta educativa</h3>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logotipo.png" width="180" alt="{{ op.logo.alt }}">
+                </a>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+                <h3>VER LA OFERTA EDUCATIVA</h3>
+            </ul>
+
+        </div>
     </nav>
-    <section class="s1">
-        <img class="img-fluid" src="images/Group 7.png">
+
+    <section id="home" class="d-flex justify-content-center align-items-center">
+        <div class="container principal">
+            <a href="#" class="btn-1">¡Inscripciones Abiertas!</a>
+        </div>
     </section>
-    <section class="s1">
-        <img class="img-fluid" src="images/Educacion_Banner.png">
+    <section id="ban-edu" class="d-flex justify-content-center align-items-center">
+        <div class="container">
+            <div class="col-6 ">
+                <h1>Maestría en <br>
+                    Educación
+                </h1>
+                <p class="py-5">
+                    Será un especialista con una concepción y fundamentos innovadores y habilidades para aplicar y resolver problemas en el campo de la educación.
+
+                    La especialización es en  Nuevas Tecnologías Aplicadas a la Educación.
+                </p>
+                <a href="">Ver Oferta completa</a>
+            </div>
+
+        </div>
     </section>
-    <section class="s1">
-        <img class="img-fluid" src="images/Administracion_Banner.png">
+    <section id="ban-admin" class="d-flex justify-content-center align-items-center">
+        <div class="container">
+            <div class="col-6 offset-md-6 pl-5">
+                <h1>Maestría en <br>
+                    Administración de <br>
+                    negocios
+                </h1>
+                <p class="py-5">
+                    El enfoque es encaminar la empresa o institución  hacia los objetivos y metas a través de la eficiencia, ejerciendo un liderazgo claro en el equipo de trabajo,  la especialización es en: Dirección de Negocios.
+                </p>
+                <a href="">Ver Oferta completa</a>
+            </div>
+
+        </div>
     </section>
-    <section class="s1">
-        <img class="img-fluid" src="images/Mercadotecnia_Banner.png">
+    <section id="ban-merca" class="d-flex justify-content-center align-items-center">
+        <div class="container">
+            <div class="col-6">
+                <h1>Maestría en <br>
+                    Mercadotecnia y <br>
+                    medios digitales
+                </h1>
+                <p class="py-5">
+                    Contarás con conocimientos especializados en el análisis, aplicación y evaluación de proyectos asociados a la mercadotecnia y a la publicidad, para el desarrollo de productos y servicios, a través de medios digitales.
+                </p>
+                <a href="">Ver Oferta completa</a>
+            </div>
+
+        </div>
     </section>
-    <section class="s1">
-        <img class="img-fluid" src="images/Derecho_Penal_Banner.png">
+    <section id="ban-dere" class="d-flex justify-content-center align-items-center">
+        <div class="container">
+            <div class="col-6 offset-md-6 pl-5">
+                <h1>Maestría en <br>
+                    Derecho Penal
+                </h1>
+                <p class="py-5">
+                    El enfoque es encaminar la empresa o institución  hacia los objetivos y metas a través de la eficiencia, ejerciendo un liderazgo claro en el equipo de trabajo,  la especialización es en: Dirección de Negocios.
+                </p>
+                <a href="">Ver Oferta completa</a>
+            </div>
+
+        </div>
     </section>
+    <div id="inicio" class="d-flex justify-content-center align-items-cente">
+        <div class="container">
+                <div class="col">
+                    <h1>¡Iniciamos en septiembre!</h1>
+                    <p>Duración de 1 año 4 meses de 8:00 a 14:00 horas
+                    </p>
+                </div>
+        </div>
+    </div>
+    <section id="formulario" class="d-flex justify-content-center align-items-cente">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <h2>
+                        INICIA TU SOLICITUD
+                        <br>
+                        <span>AQUÍ!</span>
+                    </h2>
+
+                </div>
+
+                <!-- www.123contactform.com script begins here -->
+                <script type="text/javascript" defer src="//www.123contactform.com/embed/2826482.js" data-role="form" data-default-width="650px"></script>
+                <p>Powered by <a class="footerLink13" title="123ContactForm" href="http://www.123contactform.com">123ContactForm</a> | <a style="font-size:small!important;color:#000000!important; text-decoration:underline!important;" title="Looks like phishing? Report it!" href="http://www.123contactform.com/sfnew.php?s=123contactform-52&control119314=http:///contact-form--2826482.html&control190=Report%20abuse" rel="nofollow">Report abuse</a></p><!-- www.123contactform.com script ends here -->
+            </div>
+        </div>
+    </section>
+
+
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="js/main.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-<script>
-    $('.carousel').carousel({
-        interval: false
-    });
-</script>
 </body>
 </html>
