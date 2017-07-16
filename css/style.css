@@ -1,3 +1,18 @@
+body h1,
+body h2 {
+  font-family: 'Univers', sans-serif;
+}
+body p {
+  font-family: 'Verdana', sans-serif;
+  font-size: 15px;
+  color: #000;
+}
+body a {
+  font-family: 'Verdana', sans-serif;
+  font-size: 15px;
+  color: #1e1e1e;
+  font-weight: 600;
+}
 .navbar {
   background-color: #808080;
   padding: 0;
@@ -10,6 +25,14 @@
   padding: 10px 15px !important;
   height: auto !important;
   margin: 0 !important;
+}
+.navbar .navbar-brand:hover {
+  background-color: #fff;
+}
+.navbar h3 {
+  font-size: 14px;
+  font-weight: 300;
+  color: #fff;
 }
 #home {
   height: 60vh;
@@ -25,11 +48,18 @@
   padding-top: 30vh;
 }
 #home .principal .btn-1 {
-  border-color: rgba(255,255,255,0.2);
-  border-radius: 33px;
-  background-color: none;
-  color: #1e1e1e;
+  display: block;
+  width: 250px;
+  height: 60px;
+  line-height: 60px;
+  margin: 0 auto;
+  border: 1px solid #1e1e1e;
+  border-radius: 10px;
+  text-align: center;
+  text-transform: uppercase;
   text-decoration: none;
+  color: #1e1e1e;
+  font-weight: 300;
 }
 #ban-edu {
   height: 60vh;
@@ -39,17 +69,13 @@
   background-size: cover;
   background-position: top center;
 }
-#ban-edu .principal {
-  color: #fff;
-  text-align: center;
-  padding-top: 30vh;
+#ban-edu h2 {
+  font-size: 38px;
+  font-weight: 600;
+  color: #3b3b3b;
 }
-#ban-edu .principal .btn-1 {
-  border-color: rgba(255,255,255,0.2);
-  border-radius: 33px;
-  background-color: none;
-  color: #1e1e1e;
-  text-decoration: none;
+#ban-edu h2 span {
+  font-weight: 300;
 }
 #ban-admin {
   height: 60vh;
@@ -59,17 +85,13 @@
   background-size: cover;
   background-position: top center;
 }
-#ban-admin .principal {
-  color: #fff;
-  text-align: center;
-  padding-top: 30vh;
+#ban-admin h2 {
+  font-size: 38px;
+  font-weight: 600;
+  color: #3b3b3b;
 }
-#ban-admin .principal .btn-1 {
-  border-color: rgba(255,255,255,0.2);
-  border-radius: 33px;
-  background-color: none;
-  color: #1e1e1e;
-  text-decoration: none;
+#ban-admin h2 span {
+  font-weight: 300;
 }
 #ban-merca {
   height: 60vh;
@@ -79,17 +101,13 @@
   background-size: cover;
   background-position: top center;
 }
-#ban-merca .principal {
-  color: #fff;
-  text-align: center;
-  padding-top: 30vh;
+#ban-merca h2 {
+  font-size: 38px;
+  font-weight: 600;
+  color: #3b3b3b;
 }
-#ban-merca .principal .btn-1 {
-  border-color: rgba(255,255,255,0.2);
-  border-radius: 33px;
-  background-color: none;
-  color: #1e1e1e;
-  text-decoration: none;
+#ban-merca h2 span {
+  font-weight: 300;
 }
 #ban-dere {
   height: 60vh;
@@ -99,17 +117,18 @@
   background-size: cover;
   background-position: top center;
 }
-#ban-dere .principal {
-  color: #fff;
-  text-align: center;
-  padding-top: 30vh;
+#ban-dere h2 {
+  font-size: 38px;
+  font-weight: 600;
+  color: #3b3b3b;
 }
-#ban-dere .principal .btn-1 {
-  border-color: rgba(255,255,255,0.2);
-  border-radius: 33px;
-  background-color: none;
+#ban-dere h2 span {
+  font-weight: 300;
+}
+#ban-dere a {
+  font-size: 20px;
+  font-weight: 400;
   color: #1e1e1e;
-  text-decoration: none;
 }
 #formulario {
   height: 80vh;
@@ -118,25 +137,124 @@
   background-size: cover;
   background-position: top center;
 }
-#formulario .principal {
-  color: #fff;
-  text-align: center;
-  padding-top: 30vh;
+#formulario h2 {
+  font-weight: 300;
+  font-size: 32px;
+  color: #575657;
 }
-#formulario .principal .btn-1 {
-  border-color: rgba(255,255,255,0.2);
-  border-radius: 33px;
-  background-color: none;
-  color: #1e1e1e;
-  text-decoration: none;
+#formulario h2 span {
+  font-size: 67px;
+  font-weight: 600;
+  color: #ffc017;
 }
 #inicio {
   text-align: center;
 }
-#inicio .cuadro {
-  position: absolute;
-  z-index: 2;
-  background-color: #f00;
+#inicio h2 {
+  font-size: 46px;
+  color: #000;
+  font-weight: 600;
+}
+#inicio p {
+  font-size: 24px;
+  font-weight: 300;
+}
+#inicio p span {
+  font-weight: 600;
+}
+/*formulario*/
+.contact-elements {
+  position: relative;
   width: 100%;
-  height: auto;
+  max-width: 100%;
+  display: block;
+}
+.contact-elements input {
+  border: 1px solid #ccc;
+  color: #555;
+  font-size: 1em;
+  width: 100%;
+}
+.contact-elements textarea {
+  border: 1px solid #ccc;
+  padding: 6px 10px;
+  width: 100%;
+  color: #555;
+  resize: none;
+  overflow: auto;
+}
+.contact-elements small {
+  color: #4f6fad;
+  margin: 0 0 0 0.5em;
+}
+.contact-elements p {
+  color: #000;
+}
+input.input-field,
+.tel-number-field,
+.textarea-field,
+.select-field {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  border: 1px solid #c2c2c2;
+  box-shadow: 1px 1px 4px #ebebeb;
+  -moz-box-shadow: 1px 1px 4px #ebebeb;
+  -webkit-box-shadow: 1px 1px 4px #ebebeb;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  padding: 7px;
+  outline: none;
+}
+.input-field:focus,
+.tel-number-field:focus,
+.textarea-field:focus,
+.select-field:focus {
+  border: 1px solid #0c0;
+}
+div.contact,
+textarea,
+input {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.contact {
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  line-height: 20px;
+}
+.contact h2 {
+  font-size: 50px;
+}
+.headline {
+  font-size: 50px;
+}
+.center-btn {
+  text-align: center;
+}
+.container-1 {
+  padding-bottom: 46px;
+  background-color: #fff;
+  border: 1px solid #cfcfcf;
+  border-bottom: 3px solid #ccc;
+  border-radius: 5px;
+}
+.btn {
+  font-size: 1.0625em;
+  display: block;
+  color: #fff !important;
+  border-radius: 9px;
+  width: 280px !important;
+  height: 40px;
+  background-color: #515152;
+}
+.btn:hover {
+  background-color: #bfbfbf;
 }
