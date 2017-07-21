@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Univers";
+  src: url("/fonts/Univers/Univers.otf");
+}
 body h1,
 body h2 {
   font-family: 'Univers', sans-serif;
@@ -131,7 +135,7 @@ body a {
   color: #1e1e1e;
 }
 #formulario {
-  height: 80vh;
+  min-height: 80vh;
   background-image: url("/images/Group 6.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -219,7 +223,8 @@ input.input-field,
 }
 div.contact,
 textarea,
-input {
+input,
+select {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -257,4 +262,22 @@ input {
 }
 .btn:hover {
   background-color: #bfbfbf;
+}
+select {
+  width: 100% !important;
+  height: 30px;
+  color: #555;
+}
+footer {
+  background-color: #555 !important;
+  height: 100px;
+}
+footer p {
+  margin: 0 !important;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 300;
+}
+.success {
+  color: #000;
 }

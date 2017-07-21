@@ -1,11 +1,9 @@
 <!DOCTYPE html>
-<html lang="{{ global.lang }}">
+<html lang="es">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="is an agency that takes you and your friends to the best clubs in Cancun on their featured nights. We ensure that the clubs we take you to will be packed with">
-    <meta name="keywords" content="bachelor party cancun,party in cancun,cancun party,cocobongo,cocobongo cancun,party, cancun, beach, amazing, travel, vacation, enjoy, pleasure, bitch, springbreak, spring, cancun, coco bongo, mandala, the city, sr. frogs, dadyo, palazzo, elevate, pirate, dinner, chichen, xplor, xelha, xcaret, dolphin, shark, encounter, sea lion, excursion, tour, tours,">
     <meta name="author" content="@SocialAstronauts">
     <title>Oferta Educativa UNID</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -24,7 +22,7 @@
         <div class="container">
             <div class="navbar-header">
                 <a class="navbar-brand" href="http://www.unid.edu.mx/cancun.html">
-                    <img src="images/logotipo.png" width="180" alt="{{ op.logo.alt }}">
+                    <img src="images/logotipo.png" width="180" alt="">
                 </a>
             </div>
             <ul class="nav navbar-nav navbar-right">
@@ -41,7 +39,7 @@
     </section>
     <section id="ban-edu" class="d-flex justify-content-center align-items-center">
         <div class="container">
-            <div class="col-6 ">
+            <div class="col-lg-6 col-md-12">
                 <h2><span>Maestría en</span> <br>
                     Educación
                 </h2>
@@ -50,14 +48,14 @@
 
                     La especialización es en  Nuevas Tecnologías Aplicadas a la Educación.
                 </p>
-                <a href="">Ver Oferta completa</a>
+                <a href="pdf/Educacion.pdf" target="_blank">Ver Oferta completa</a>
             </div>
 
         </div>
     </section>
     <section id="ban-admin" class="d-flex justify-content-center align-items-center">
         <div class="container">
-            <div class="col-6 offset-md-6 pl-5">
+            <div class="col-lg-6 offset-lg-6 col-md-12 pl-5">
                 <h2><span>Maestría en</span> <br>
                     Administración de <br>
                     negocios
@@ -65,14 +63,14 @@
                 <p class="py-5">
                     El enfoque es encaminar la empresa o institución  hacia los objetivos y metas a través de la eficiencia, ejerciendo un liderazgo claro en el equipo de trabajo,  la especialización es en: Dirección de Negocios.
                 </p>
-                <a href="">Ver Oferta completa</a>
+                <a href="pdf/AdministraciondeNegocios.pdf" target="_blank">Ver Oferta completa</a>
             </div>
 
         </div>
     </section>
     <section id="ban-merca" class="d-flex justify-content-center align-items-center">
         <div class="container">
-            <div class="col-6">
+            <div class="col-lg-6 col-md-12">
                 <h2><span>Maestría en</span> <br>
                     Mercadotecnia y <br>
                     medios digitales
@@ -80,7 +78,7 @@
                 <p class="py-5">
                     Contarás con conocimientos especializados en el análisis, aplicación y evaluación de proyectos asociados a la mercadotecnia y a la publicidad, para el desarrollo de productos y servicios, a través de medios digitales.
                 </p>
-                <a href="">Ver Oferta completa</a>
+                <a href="pdf/Mercadotecniaymediosdigitales.pdf" target="_blank">Ver Oferta completa</a>
             </div>
 
         </div>
@@ -94,16 +92,15 @@
                 </div>
         </div>
     </div>
-    <section id="formulario" class="d-flex justify-content-center align-items-cente">
+    <section id="formulario" class="d-flex justify-content-center align-items-cente pb-4">
         <div class="container">
             <div class="row">
-                <div class="col-6 text-center">
+                <div class="col-lg-6 col-md-12  text-center">
                     <h2>
                         INICIA TU SOLICITUD
                         <br>
                         <span>AQUÍ!</span>
                     </h2>
-
                 </div>
                 <div class="col-lg-6 col-md-12 contact container-1 shadow" id="contact_form">
                     <div class="container">
@@ -116,42 +113,38 @@
                         <div class="contact row body" id="">
                             <div class="contact-elements">
                                 <div class="col-12 py-4">
-                                    <input type="text" name="name" id="name" required="true" class="input-field" placeholder="Nombre Completo" />
+                                    <input type="text" name="name" id="name" required="true" class="input-field" placeholder="Nombre Completo">
                                 </div>
                                 <div class="col py-4">
                                     <div class="row">
-                                        <div class="col-6">
-                                            <input type="email" name="email" required="true" class="input-field" placeholder="Correo Electronico" />
+                                        <div class="col-lg-6 col-md-12">
+                                            <input type="email" name="email" required="true" class="input-field" placeholder="Correo Electronico">
                                         </div>
-                                        <div class="col-6">
+                                        <div class="col-lg-6 col-md-12">
                                             <div class="row">
                                                 <div class="col-4">
-                                                    <input type="text" name="phone2" maxlength="15" class="tel-number-field long" placeholder="Lada" />
+                                                    <input type="text" name="phone" maxlength="15" class="tel-number-field long" placeholder="Lada">
                                                 </div>
                                                 <div class="col-8">
-                                                    <input type="text" name="phone2" maxlength="15" class="tel-number-field long" placeholder="Numero de telefono" />
+                                                    <input type="text" name="phone2" maxlength="15" class="tel-number-field long" placeholder="Numero de telefono">
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col">
-                                    <label for="busqueda-en-google">
-                                        Selecciona un programa de tu interes
-                                    </label>
-                                    <div class="select">
-                                        <select name="busqueda-en-google" id="busqueda-en-google">
-                                            <option value="educacion">Maestría en Educación</option>
-                                            <option value="administracion">Maestría en Administración de negocios</option>
-                                            <option value="mercadotecnia">Maestría en Mercadotecnia y medios digitales</option>
-                                        </select>
-                                    </div>
+                                    <select name="oferta" id="">
+                                            <option name="oferta" value="">Selecciona un programa de tu interes</option>
+                                            <option name="oferta" value="educacion">Maestría en Educación</option>
+                                            <option name="oferta" value="administracion">Maestría en Administración de negocios</option>
+                                            <option name="oferta" value="mercadotecnia">Maestría en Mercadotecnia y medios digitales</option>
+                                    </select>
                                 </div>
                                 <div class="col p-4">
                                     <textarea cols="46" rows="8" name="message" id="message" class="textarea-field" required="true" placeholder="Comentarios"></textarea>
                                 </div>
                                 <div class="center-btn col d-flex justify-content-center">
-                                    <input id="submit_btn" class="btn btn-submit" type="submit" value="Enviar"/>
+                                    <input id="submit_btn" class="btn btn-submit" type="submit" value="Enviar">
                                 </div>
                             </div>
                         </div>
@@ -160,6 +153,12 @@
             </div>
         </div>
     </section>
+    <footer class="col-12 d-flex justify-content-between align-items-center  px-5">
+        <p class="hidden-xs-down">Copyright © www.unid.edu.mx 2017 Derechos Reservados <br>
+            Diseñada por Diego Hernández Bermúdez Diseño Grafico 6to cte. </p>
+        <img src="images/logo_fo.png" alt="">
+    </footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script>
         $(document).ready(function() {
@@ -188,8 +187,10 @@
                     post_data = {
                         'user_name': $('input[name=name]').val(),
                         'user_email': $('input[name=email]').val(),
+                        'country_code': $('input[name=phone]').val(),
                         'phone_number': $('input[name=phone2]').val(),
-                        'msg': $('textarea[name=message]').val()
+                        'msg': $('textarea[name=message]').val(),
+                        'ofert_educ': $('select[name=oferta]').val()
                     };
 
                     //Ajax post data to server
@@ -215,6 +216,5 @@
         });
     </script>
 <script src="js/main.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 </body>
 </html>
